@@ -1,0 +1,8 @@
+Jacob Gorr
+gorrx005
+
+At this point in time I just randomly assign a starting x postion for each letter of text rain, but i make sure they arent too close to the edges.
+
+For determining if a text rain should stop I detect the value of the pixel 2 pixels below the text and if it is black it stops falling, but if the pixel is only 1 pixel below the text it begins rising. 
+
+UPDATE: I have added the missing font file into the Data folder, I have wrote and tested my code on a windows machine and it compiles on that
